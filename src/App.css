@@ -1,0 +1,88 @@
+* {
+  padding: 0; 
+  margin: 0;
+  box-sizing: border-box;
+  font-family:cursive;
+  background-color: rgb(65, 128, 107);
+}
+
+.pageContainer {
+  background-color: rgb(65, 128, 107);
+}
+
+select {
+  display: block;
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: lightblue;
+}
+
+input{
+  border: none;
+  border-radius: 5px;
+  background-color: azure;
+}
+
+.topColumnLabel { 
+  margin:5px 5px;
+}
+
+button {
+  margin: 10px 10px 10px 10px;
+}
+
+.topContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(65, 128, 107);
+}
+
+.topForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 10px;
+}
+
+.topCreateLayoutButton{
+  border: none;
+  background-color: aqua;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.layoutContainer {
+  background-color: rgb(106, 108, 106);
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.layoutContainerHeading {
+  background-color: rgb(106, 108, 106);
+}
+
+.layoutBottomContainer{
+  background-color: rgb(106, 108, 106);
+}
+.bestHouseIdentifyButton {
+  border: none;
+  background-color: aqua;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.layoutBottomRowResults{
+  background-color: rgb(106, 108, 106);
+
+}
+
+.layoutBottomColResults{
+  background-color: rgb(106, 108, 106);
+
+}
